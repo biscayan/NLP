@@ -222,4 +222,3 @@ if __name__=='__main__':
     porter=Porter()
     input_word=input("Input a word: ").lower()
     print("Stem: {0}" .format(porter.stemming(input_word)))
- 
